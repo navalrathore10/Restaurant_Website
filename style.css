@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins{
+    font-family: "Poppins", sans-serif;
+}
+.martel{
+    font-family: "Martel Sans", sans-serif;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.text-grey{
+    color: grey;
+}
+.text-black{
+    color: black;
+}
+.fw-lt{
+    font-weight: 300;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin: 0;
+}
+
+.inner{
+    margin: auto;
+    max-width: 1220px;
+    height: inherit;
+    position: relative;
+}
+
+.header{
+    height: 75px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.421);
+    backdrop-filter: blur(10px);
+}
+.menu_bar{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.hero{
+    position: relative;
+}
+.hero_lft{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+
+.hero_rgt{
+    width: 60%;
+    position: relative;
+    right: 0;
+    top: 0px;
+}
+.hero_title{
+    font-size: 58px;
+}
+
+.hero_btns{
+    border: solid 2px #FFE145;
+    cursor: pointer;
+    transition:  300ms;
+}
+.hero_btns:hover{
+    background-color: #FFE145;
+    color: white;
+
+}
+.hero_btns p:first-child{
+    font-size: 16px;
+}
+.hero_btns p:last-child{
+    font-size: 12px;
+}
+
+.hero_slab{
+    background-color: white;
+    width: 60%;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    font-size: 16px;
+    transition: 600ms;
+}
+.hero_slab .row .col{
+    height: 48px;
+}
+.hero_slab .row{
+    width: 750px;
+    transition: 600ms;
+}
+
+.menu{
+    position: fixed;
+    top: 75px;
+    right: -101%;
+    z-index: 102;
+    height: 100vh;
+    width: 100vw;
+    /* border: solid 1px black; */
+    transition: 400ms;
+}
+.menu ul{
+    background-color: white;
+    z-index: 102;
+    height: 100vh;
+    width: 400px;
+}
+.menu ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.menu_overlay{
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    top: 75px;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: calc(100vh - 75px);
+    background-color: #000000c2;
+    transition: 1s;
+}
+
+.call_info_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.call_info_text p:last-child{
+    font-size: 12px;
+    color: grey;
+}
+.menu li{
+    font-size: 16px;
+}
+.menu-active{
+    right: 0;
+}
+.menu_overlay_active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+/* Section 1 Starts here  */
+
+.slide-btn{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+.lft-btn{
+    left: -20px;
+}
+.rgt-btn{
+    right: -20px;
+}
+
+/* Section 2 Starts Here */
+
+.section_2{
+    background-color: #F2F4FA;
+}
+.input{
+    background-color: white;
+    height: 60px;
+    width: 300px;
+    font-size: 12px;
+}
+
+.input input{
+    height: 100%;
+    flex-grow: 1;
+}
+.input input:focus{
+    outline: none;
+}
+
+.sec_2_btn{
+    color: #B79C10;
+    background-color: #FFE145;
+}
+.sec-2-row-out{
+    margin: auto;
+    width: 90%;
+}
+
+/* Section 3 Starts  */
+
+.sec-3-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 500ms;
+    background-color: white;
+}
+.sec-3-cards:hover{
+    transform: scale(1.1);
+}
+
+.slider-row{
+    width: 100%;
+}
+.section-3 .slider{
+    padding-bottom: 50px;
+}
+
+/* Section 4 Starts Here  */
+
+.section-4{
+
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Foooter Starts here */
+
+footer{
+    background-color: #3F4255;
+
+}
+
+.ftr-logo-up{
+    width: 60%;
+    border-bottom: solid 2px grey;
+}
+
+.ftr-nav-ul li a{
+    color: #D4D7E5;
+}
+
+#ftr-lang{
+    background-color: transparent;
+    color: #d4d7e5;
+}
+.ftr-baseline{
+    font-size: 13px;
+}
+.ftr-baseline span:last-child{
+    color: #D4D7E5;
+    font-size: 11px;
+}
+/*  Media Query Responsive Starts HEre */
+
+@media only screen and (min-width: 768px) and (max-width: 1300px){
+    .hero{
+        min-height: 800px;
+    }
+    .hero_slab{
+        width: 100%;
+        top: 75%;
+    }
+} 
+@media only screen and (min-width: 0px) and (max-width: 768px){
+    .hero{
+        min-height: 850px;
+        /* max-width: 1200px; */
+    }
+    .hero_slab{
+        width: 100%;
+        top: 65%;
+    }
+    
+    .hero_lft{
+        width: 65%;
+        z-index: 25;
+        scale: 0.8;
+    }
+} 

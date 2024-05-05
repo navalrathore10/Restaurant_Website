@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yello Kitchen | Naval</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <!--  Header Starts Here ------------------------------------- -->
+
+    <div class="container-fluid header border border-bottom shadow-sm">
+        <div class="inner d-flex justify-content-between align-items-center">
+            <img src="img/logo.png" alt="" width="184px" height="24px">
+            <div class="headright d-flex gap-5 align-items-center py-3 poppins text-grey">
+                <div  class="d-sm-block d-none">
+                    <i class="fa-regular fa-user"></i>
+                    <a href="#" style="text-decoration: none; color: grey;" class="poppins">Log in</a>
+                </div>
+                <div class="d-sm-block d-none">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <a href="#" style="text-decoration: none; color: grey;" class="poppins">0</a>
+                </div>
+                <div id="menubar"
+                    class="menu_bar d-flex align-items-center justify-content-center rounded-circle shadow-sm">
+                    <i class="fa-solid fa-bars"></i>
+                    <div id="menu_overlay" class="menu_overlay"></div>
+                    <div id="menu" class="menu d-flex justify-content-end">
+                        <ul class="p-5 ">
+                            <li class="border border-0 border-bottom">
+                                <div class="call_info d-flex align-items-center justify-content-start gap-3 p-3 ">
+                                    <i class="fa-solid fa-phone me-2"></i>
+                                    <div class="call_info_text ">
+                                        <p class="my-0">0800 111 126</p>
+                                        <p class="my-0">8:00 - 22:00</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="border border-0 border-bottom py-4">
+                                <a href="">Delivery Info</a>
+                            </li>
+                            <li class="border border-0 border-bottom py-4">
+                                <a href="">About Us</a>
+                            </li>
+                            <li class="border border-0 border-bottom py-4">
+                                <a href="">Restaurants</a>
+                            </li>
+                            <li class="border border-0 border-bottom py-4">
+                                <a href="">Specialities</a>
+                            </li>
+                            <li class="border border-0 border-bottom py-4 d-sm-none d-block">
+                                <i class="fa-regular fa-user"></i>
+                                <a href="#" style="text-decoration: none; color: grey;" class="poppins">Log in</a>
+                            </li>
+                            <li class="border border-0 border-bottom py-4 d-sm-none d-block">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <a href="#" style="text-decoration: none; color: grey;" class="poppins">0</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Header Ends Here ------------------------------------- -->
+
+    <!-- Hero Starts Here--------------------------------------- -->
+
+    <div class="container-fluid hero pt-5">
+        <div class="inner d-flex align-items-top justify-content-end">
+            <div class="hero_lft py-5">
+                <h1 class="fw-light mb-5 hero_title">Your Food Court <br> at Home</h1>
+                <div class="d-flex gap-5 pt-3">
+                    <div class="d-flex flex-column justify-content-center align-items-center hero_btns rounded-1 py-3 px-4">
+                        <p class="my-0 fw-semibold">Delivery</p>
+                        <p class="my-0">Order in</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center hero_btns rounded-1 py-3 px-4">
+                        <p class="my-0 fw-semibold">Takeout</p>
+                        <p class="my-0">Grab & Go</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero_rgt pt-5">
+                <img src="img/Photo.png" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div
+            class="hero_slab p-4 d-flex justify-content-xl-end justify-content-center shadow rounded-2 align-items-center">
+            <div class="row d-flex gap-md-0 gap-5">
+                <div class="col-md-5 col-12 d-flex align-items-center justify-content-center">
+                    <img src="img/time-eat.png" class="me-3" alt="" width="48px" height="48px">
+                    <p class="my-0">delivery in all Jaipur <br> in less than 30 minutes</p>
+                </div>
+                <div class="col-md-3 col-12 d-flex align-items-center justify-content-center me-2">
+                    <img src="img/delivery.png" class="me-3" alt="" width="48px" height="48px">
+                    <p class="my-0">Free delivery <br> from 29 euros</p>
+                </div>
+                <div class="col-md-3 col-12 d-flex align-items-center justify-content-center">
+                    <img src="img/paris.png" class="me-3" alt="" width="48px" height="48px">
+                    <p class="my-0">Only fresh <br> and French products</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Ends Here--------------------------------------- -->
+
+    <!-- Section 1 Starts Here-------------------------------- -->
+    <div class="container-fluid section-1 py-3 ">
+        <div class="inner d-flex flex-column justify-content-evenly gap-3">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="fs-1 fw-lt">Restaurants</div>
+                <button class="text-grey py-2 px-3 fs-6 border border-0 rounded">show all</button>
+            </div>
+            <div class="container-fluid slider relative d-flex justify-content-center align-items-center ">
+                <div
+                    class="lft-btn p-2 slide-btn rounded-circle shadow d-flex justify-content-center align-items-center absolute">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div
+                    class="rgt-btn p-2 slide-btn rounded-circle shadow d-flex justify-content-center align-items-center absolute">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 col-sm-6 col-12 px-0 ">
+                        <div class="p-2 d-flex justify-content-center align-items-center">
+                            <img src="img/restaurant.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 px-0 ">
+                        <div class="p-2 d-flex justify-content-center align-items-center">
+                            <img src="img/restaurant 1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 px-0 ">
+                        <div class="p-2 d-flex justify-content-center align-items-center">
+                            <img src="img/restaurant 2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 px-0 ">
+                        <div class="p-2 d-flex justify-content-center align-items-center">
+                            <img src="img/restaurant 3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Section 1 Ends Here-------------------------------- -->
+
+
+    <!-- Section 2 Starts HEre ------------------------------ -->
+
+    <div class="container-fluid section_2">
+        <div class="inner">
+            <div class="row mx-xl-0 mx-4">
+                <div class="col-md-6 col-12 px-0 py-5 d-flex flex-column gap-3">
+                    <div class="fs-1 fw-light">Your nearest restaurants</div>
+                    <p class="text-grey">Each kitchen works with its own delivery area <br> to deliver food to you
+                        as soon as possible</p>
+                </div>
+                <div class="col-md-6 col-12 px-0 py-5 d-flex align-items-center justify-content-end gap-1">
+                    <div class="input text-grey rounded px-3 d-flex gap-2 align-items-center">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <input type="text" class="border border-0" placeholder="Enter Delivery Address">
+                    </div>
+                    <button class="sec_2_btn rounded px-4  border border-0 py-3">send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2 Ends HEre ------------------------------ -->
+
+    <!-- Section 3 Starts HEre ------------------------------ -->
+
+    <div class="container-fluid section-3 py-3 border border-2">
+        <div class="inner d-flex flex-column justify-content-evenly gap-3">
+            <div class="d-flex justify-content-between align-items-center py-3">
+                <div class="fs-1 fw-lt">Restaurants</div>
+                <button class="text-grey py-2 px-3 fs-6 border border-0 rounded">show all</button>
+            </div>
+            <div class="slider relative">
+                <div
+                    class="lft-btn p-2 slide-btn rounded-circle shadow d-flex justify-content-center align-items-center absolute">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div
+                    class="rgt-btn p-2 slide-btn rounded-circle shadow d-flex justify-content-center align-items-center absolute">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="row slider-row d-flex align-items-center">
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/bagel.png" alt="" width="48px" height="48px">
+                            Bagel
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/fish.png" alt="" width="48px" height="48px">
+                            Fish
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/burger.png" alt="" width="48px" height="48px">
+                            Burger
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/chicken.png" alt="" width="48px" height="48px">
+                            Chicken
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/vegan.png" alt="" width="48px" height="48px">
+                            Vegan
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/raviolli.png" alt="" width="48px" height="48px">
+                            Raviolli
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/fishnchips.png" alt="" width="48px" height="48px">
+                            Fish&Chips
+                        </div>
+                    </div>
+                    <div class="col-xl col-md-3 col-6">
+                        <div class="sec-3-cards shadow py-3 gap-2 rounded m-xl-0 m-2">
+                            <img src="img/pizza.png" alt="" width="48px" height="48px">
+                            Pizza
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Section 3 Ends HEre ------------------------------ -->
+
+    <!-- Section 4 Starts Here ------------------------------ -->
+
+    <div class="container-fluid section-4">
+        <div class="inner d-flex flex-wrap justify-content-center align-items-center gap-4 py-5">
+            <img src="img/Component 7.png" alt="">
+            <img src="img/Component 8.png" alt="">
+            <img src="img/Component 9.png" alt="">
+            <img src="img/Component 10.png" alt="">
+        </div>
+    </div>
+
+    <!-- Section 4 Ends Here ------------------------------ -->
+
+    <!-- Section 5 STarts HEre  --------------------------------->
+    <div class="container-fluid section-5">
+        <div class="inner py-5">
+            <iframe class="shadow"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.3343371381559!2d75.71454737091732!3d26.924135840572557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3e8e63c5651%3A0x6d23a7b36cb3d9be!2sThe%20Tentech%20Solutions!5e0!3m2!1sen!2sin!4v1714730817036!5m2!1sen!2sin"
+                width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- Section 5 Ends Here ------------------------------ -->
+
+    <!-- Section 6 STarts HEre  --------------------------------->
+
+    <div class="container-fluid section-6">
+        <div class="inner">
+            <div class="fs-1 fw-light text-grey">
+                <span class="text-black">#YellowKitchens</span> in instagram
+            </div>
+            <div class="row my-4">
+                <div class="col-lg col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="m-1">
+                        <img src="img/Rectangle 10.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="m-1">
+                        <img src="img/Rectangle 11.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="m-1">
+                        <img src="img/Rectangle 12.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg col-sm-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="m-1">
+                        <img src="img/Rectangle 13.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 6 Ends Here ------------------------------ -->
+
+    <!-- Footer Starts Here ------------------------------- -->
+
+    <footer class="container-fluid py-5">
+        <div class="inner">
+                <div class="countainer-fluid ftr-cnt pb-4">
+                    <div class="row">
+                        <div class="col-lg-5 col-12">
+                            <div class="ftr-logo-up pb-5">
+                                <img src="img/Logo white.png" alt="" width="184px" height="24px">
+                            </div>
+                            <div class="ftr-logo-down d-flex gap-2 pt-5">
+                                <img src="img/app-img1-1.png" alt="" height="27px">
+                                <img src="img/app-img2-1.png" alt="" height="27px">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="ftr-nav-head fs-4 fw-semibold text-light">
+                                About us
+                            </div>
+                            <ul class="ps-0 ftr-nav-ul d-flex flex-column gap-2 mt-4">
+                                <li><a href="" class="text-decoration-none">Concept</a></li>
+                                <li><a href="" class="text-decoration-none">Franchise</a></li>
+                                <li><a href="" class="text-decoration-none">Business</a></li>
+                                <li><a href="" class="text-decoration-none">Restaurant signup</a></li>
+                                <li><a href="" class="text-decoration-none">For Investors</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-6">
+                            <div class="ftr-nav-head fs-4 fw-semibold text-light">
+                                Get help
+                            </div>
+                            <ul class="ps-0 ftr-nav-ul d-flex flex-column gap-2 mt-4">
+                                <li><a href="" class="text-decoration-none">Read FAQs</a></li>
+                                <li><a href="" class="text-decoration-none">Restaurants</a></li>
+                                <li><a href="" class="text-decoration-none">Specialities</a></li>
+                                <li><a href="" class="text-decoration-none">Sign up to deliver</a></li>
+                                <li><select name="ftr-language" id="ftr-lang" class="border border-0">
+                                    <option value="English">English</option>
+                                    <option value="Hindi">Hindi</option>
+                                </select></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="ftr-nav-head fs-4 fw-semibold text-light">
+                                Contact us
+                            </div>
+                            <ul class="ps-0 ftr-nav-ul d-flex flex-column gap-2 mt-4">
+                                <li><a href="" class="text-decoration-none">Yellow kitchen Paris 11</a></li>
+                                <li><a href="" class="text-decoration-none">69 avenue de la Republique 75011 <br> Paris</a></li>
+                                <li><a href="" class="text-decoration-none">0800 111 126</a></li>
+                                <li><a href="" class="text-decoration-none">contact@yellowkitchens.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="countainer-fluid ftr-baseline d-flex justify-content-between mt-5">
+                    <div class="d-flex gap-4 fs-5 text-light">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="d-flex gap-4 text-light align-items-center">
+                        <span class="text-light fw-normal">Privacy Policy</span>
+                        <span class="text-light fw-normal">Terms</span>
+                        <span class="fw-light">© 2020 Yellow kitchen</span>
+                    </div>
+                </div>
+        </div>
+    </footer>
+
+    <!-- Footer Ends Here ------------------------------- -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
